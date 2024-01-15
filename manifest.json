@@ -1,0 +1,17 @@
+{
+    "name": "Satlinizer",
+    "description": "get stalinized",
+    "version": "1",
+    "manifest_version": 3,
+    
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          
+          "js": ["content.js"]
+        }
+    ],
+    "action": {
+      "default_popup": "main.html"
+    }
+  }
